@@ -1,1 +1,6 @@
-@import "~@ornikar/kitt/lib/kitt-default.css";
+@import "~@ornikar/kitt/dist/kitt-default.css";
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
