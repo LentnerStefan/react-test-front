@@ -4,7 +4,7 @@ import "./App.css";
 
 // Series content can be fetched at:
 // import('./data.json');
-// import: Promise<{ default: Serie }>
+// import(file: string): Promise<{ default: Serie }>
 
 // kitt storybook: https://kitt.ornikar.com
 
