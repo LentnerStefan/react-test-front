@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { LargeLoader, Typography, Button, Highlight } from "@ornikar/kitt";
 import "./App.css";
 
-// Series content can be fetched at:
+// Series content can be fetched with:
 // import('./data.json');
 // import(file: string): Promise<{ default: Serie }>
 
