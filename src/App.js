@@ -6,7 +6,7 @@ import "./App.css";
 // import('./data.json');
 // import(file: string): Promise<{ default: Serie }>
 
-// kitt storybook: https://kitt.ornikar.com
+// kitt storybook: http://kitt.ornikar.com
 
 // <img src={`https://onkmedia.blob.core.windows.net/questions/1266/${currentQuestion.question_image_1}.jpg`} />
 
