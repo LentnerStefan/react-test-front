@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { LargeLoader, Typography, Button, Highlight } from "@ornikar/kitt";
-import "./App.css";
+import { LargeLoader, Typography } from '@ornikar/kitt';
+import React, { Component } from 'react';
+import './App.css';
 
 // Series content can be fetched with:
 // import('./data.json');
@@ -8,7 +8,7 @@ import "./App.css";
 
 // kitt storybook: http://kitt.ornikar.com
 
-// <img src={`https://onkmedia.blob.core.windows.net/questions/1266/${currentQuestion.question_image_1}.jpg`} />
+// <img src={`https://onkmedia.blob.core.windows.net/questions/1266/${question.question_image_1}.jpg`} />
 
 const Loader = () => (
   <div className="loader">
@@ -16,6 +16,7 @@ const Loader = () => (
   </div>
 );
 
+/* version classes */
 export default class OrnikarTest extends Component {
   render() {
     return (
@@ -25,3 +26,13 @@ export default class OrnikarTest extends Component {
     );
   }
 }
+
+/* version hooks */
+
+// export default function OrnikarTest() {
+//   return (
+//     <Typography.div base="body" className="App">
+//       <Loader />
+//     </Typography.div>
+//   );
+// }
