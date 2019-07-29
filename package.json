@@ -8,22 +8,22 @@
     "arrowParens": "always"
   },
   "dependencies": {
-    "@ornikar/kitt": "^11.4.0",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
-    "react-motion": "^0.5.2",
-    "react-scripts": "2.1.1"
+    "@ornikar/kitt": "^16.12.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
   },
   "devDependencies": {
-    "@ornikar/browserslist-config": "0.1.1",
-    "eslint-plugin-prettier": "^3.0.1",
-    "prettier": "1.16.4"
+    "@ornikar/browserslist-config": "1.2.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "prettier": "1.18.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src"
   },
   "browserslist": [
     ">0.2%",
