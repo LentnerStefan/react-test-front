@@ -1,11 +1,13 @@
 {
   "editor.formatOnSave": true,
-  "eslint.autoFixOnSave": true,
 
   "search.exclude": {
     "**/yarn-error.log": true,
     "**/yarn.lock": true,
     "**/*.js.snap": true,
     "**/build": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   }
 }

@@ -8,7 +8,7 @@ import './App.css';
 
 // kitt storybook: http://kitt.ornikar.com
 
-// <img src={`https://onkmedia.blob.core.windows.net/questions/1266/${question.question_image_1}.jpg`} />
+// <img src={`https://assets.barnsdale.org/onkmedia/questions/1266/${question.question_image_1}.jpg`} />
 
 const Loader = () => (
   <div className="loader">
